@@ -1,0 +1,30 @@
+{
+  "name": "goit-js-hw-09",
+  "version": "1.0.0",
+  "description": "",
+  "dependencies": {
+    "modern-normalize": "^1.1.0"
+  },
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.6.0",
+    "parcel": "^2.6.0",
+    "parcel-reporter-clean-dist": "^1.0.4",
+    "posthtml-include": "^1.7.4"
+  },
+  "scripts": {
+    "start": "parcel src/*.html",
+    "build": "parcel build src/*.html --public-url /goit-js-hw-09/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nechuhaev/goit-js-hw-09.git"
+  },
+  "keywords": [],
+  "author": "Alexander Nechuhaev <a.nechuhaev@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Nechuhaev/goit-js-hw-09/issues"
+  },
+  "homepage": "https://github.com/Nechuhaev/goit-js-hw-09#readme",
+  "browserslist": "> 0.5%, last 2 versions, not dead"
+}
